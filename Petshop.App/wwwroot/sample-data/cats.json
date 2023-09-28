@@ -1,4 +1,5 @@
 ﻿[
+
   {
     "Id": 1,
     "Name": "Kitty",
@@ -7,27 +8,16 @@
 
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Name": "Spotty",
     "Animal": 0,
     "Feed": "mouse"
   },
   {
-    "Id": 3,
+    "Id": 5,
     "Name": "Mau",
     "Animal": 0,
     "Feed": "bird"
-  },
-  {
-    "Id": "2022-01-06",
-    "Name": 1,
-    "Animal": "",
-    "Feed": "Freezing"
-  },
-  {
-    "Id": "2022-01-06",
-    "Name": 1,
-    "Animal": "",
-    "Feed": "Freezing"
   }
+
 ]
