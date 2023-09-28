@@ -1,0 +1,17 @@
+[
+
+  {
+    "Id": 2,
+    "Name": "Rex",
+    "Animal": 1,
+    "Feed": "Meat"
+  },
+
+  {
+    "Id": 4,
+    "Name": "Max",
+    "Animal": 1,
+    "Feed": "Salad"
+  }
+
+]
