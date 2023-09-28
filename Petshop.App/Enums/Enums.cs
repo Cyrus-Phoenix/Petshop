@@ -1,6 +1,6 @@
 ﻿namespace Petshop.App.Enums;
 
-enum Animal
+public enum Animal
 {
     Cat,
     Dog
