@@ -15,12 +15,13 @@ namespace Petshop.App.Interfaces;
         string Feed { get; init; }
 
 
-        public string Eat()
+         string Eat()
         {
-            return "";
+            return string.Empty;
         }
-        
-   
+
+    // Samma som ovan?
+    // string Eat();
         
     }
 

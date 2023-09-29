@@ -28,8 +28,6 @@ namespace Petshop.App.Classes
 
         public string Eat()
         {
-
-
             string catEat = $"Chewing on a {Feed} ";
             return catEat;
         }

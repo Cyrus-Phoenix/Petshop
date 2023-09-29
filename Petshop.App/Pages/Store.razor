@@ -1,4 +1,6 @@
 ﻿@page "/"
+@using Petshop.App.Classes;
+@inject PetStore store
 
 <PageTitle>Pet Store</PageTitle>
 
@@ -13,6 +15,7 @@
             <th scope="col">Actions</th>
         </tr>
     </thead>
+
 
     @*
     <tbody>
@@ -37,4 +40,6 @@
         </tr>
     </tbody>
     *@
+
+
 </table>
