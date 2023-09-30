@@ -41,7 +41,7 @@ namespace Petshop.App.Classes
                     var dogs = await _http.GetFromJsonAsync<List<Dog>>("sample-data/dogs.json");
             
                   // vad gör keyworden AddRange?
-                     if (cats is not null) Pets.AddRange(cats);                                     <-- Om cats objektens datan är inte null så ta all den data som finns och lägg in det i List<IPet> objektet.
+                     if (cats is not null) Pets.AddRange(cats);                                     <-- Om cats objektens datan är inte null så ta all den data som finns där och lägg in det i List<IPet> objektet.
                      if (dogs is not null) Pets.AddRange(dogs);
 
                      return Pets;                                                                   <-- returnera den fyllda List<IPet> listan
@@ -71,6 +71,11 @@ namespace Petshop.App.Classes
             return Pets;
         }
 
+        public void Feed(int id)
+        {
+           var pet = Pets.FirstOrDefault(Pets => Pets.Id == id);
+            Message = pet?.Eat() ?? "Not hungery"; // var är dubbla ??
+        }
        
 
     }
