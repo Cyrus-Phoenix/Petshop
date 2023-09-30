@@ -1,8 +1,9 @@
 ﻿using Petshop.App.Enums;
+using Petshop.App.Interfaces;
 
 namespace Petshop.App.Classes
 {
-    public class Dog
+    public class Dog : IPet
     {
         public int Id { get; init; }
 

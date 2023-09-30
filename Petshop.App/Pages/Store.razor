@@ -15,7 +15,12 @@
             <th scope="col">Actions</th>
         </tr>
     </thead>
-
+    <tbody>
+        @foreach (var pet in store.Pets) 
+        {
+            <tr></tr>
+        }
+    </tbody>
 
     @*
     <tbody>
@@ -43,3 +48,6 @@
 
 
 </table>
+@code{
+
+}

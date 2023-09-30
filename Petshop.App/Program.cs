@@ -9,7 +9,8 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-// builder.Services.AddSingleton<Animal>;
+//Skillnaden mellan Singleton och AddScoped?
 builder.Services.AddScoped<PetStore>();
+//builder.Services.AddSingleton<PetStore>();
 
 await builder.Build().RunAsync();
